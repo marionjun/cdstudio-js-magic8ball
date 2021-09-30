@@ -1,0 +1,115 @@
+body {
+    background-image: url("bg5.jpg");
+}
+
+#display {
+    position: relative;
+    text-align: center;
+    top: 470px;
+    z-index: 11;
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 9px 9px rgba(0, 0, 0, 0.25);
+}
+
+  #questionbox {
+    position: absolute;
+    width: 700px;
+    height: 45px;
+    left: 360px;
+    top: 80px;
+    font-size: 25px;
+    background: #FFFFFF;
+    border: none;
+    resize: none;
+    font-family: 'Cherry Swash', cursive;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 20px;
+   
+border-radius: 40px;
+  box-shadow: 0 9px 11px rgba(0, 0, 0, 0.4);
+  /* transform: translate(-50%, -50%); */
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+#enter {
+    position: relative;
+    top: 120px;
+    left: 73%;
+    background: none;
+    border: none;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    letter-spacing: 1px;
+}
+
+
+
+#threed {
+  background: #0f0f0f;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: auto;
+  margin-top: 150px;
+  display: block;
+  box-shadow: 15px 15px 70px 6px #5f5f5f;
+}
+  .button {
+    background: #f00000;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 0%;
+    left: 15%;
+    box-shadow: 0 20px 0 0 #8C0606;
+    border: none;
+    transition: all .5s ease;
+  }
+.button:active {
+      box-shadow: 0 1px 1px 1px #8C0606;
+      top: 10%;
+  }
+.circle {
+  border-radius: 50%;
+
+}
+
+
+#happy {
+    position: relative;
+    margin: auto; 
+    margin-top: 100px;
+    margin-left: 40.5%;
+    display: none;
+ }
+
+ #sad {
+    position: relative;
+    margin: auto; 
+    margin-top: 100px;
+    margin-left: 40.5%;
+    display: none;
+ }
+
+ #hello {
+    position: relative;
+    margin: auto; 
+    margin-top: 100px;
+    margin-left: 40.5%;
+    display: block;
+ }
