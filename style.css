@@ -5,7 +5,7 @@ body {
 #display {
     position: relative;
     text-align: center;
-    top: 470px;
+    top: 550px;
     z-index: 11;
     font-size: 50px;
     font-family: 'Lobster Two', cursive;
@@ -17,11 +17,11 @@ body {
 }
 
   #questionbox {
-    position: absolute;
-    width: 700px;
-    height: 45px;
-    left: 360px;
-    top: 80px;
+    width: 70%;
+    height: 0%;
+    position: relative;
+    top: 0%;
+    left: 15%;
     font-size: 25px;
     background: #FFFFFF;
     border: none;
@@ -29,8 +29,8 @@ body {
     font-family: 'Cherry Swash', cursive;
     font-weight: 400;
     text-align: center;
-    padding-top: 15px;
-    padding-left: 20px;
+    padding-top: 25px;
+    padding-left: 0px;
    
 border-radius: 40px;
   box-shadow: 0 9px 11px rgba(0, 0, 0, 0.4);
@@ -94,7 +94,6 @@ border-radius: 40px;
     position: relative;
     margin: auto; 
     margin-top: 100px;
-    margin-left: 40.5%;
     display: none;
  }
 
@@ -102,7 +101,6 @@ border-radius: 40px;
     position: relative;
     margin: auto; 
     margin-top: 100px;
-    margin-left: 40.5%;
     display: none;
  }
 
@@ -110,6 +108,5 @@ border-radius: 40px;
     position: relative;
     margin: auto; 
     margin-top: 100px;
-    margin-left: 40.5%;
     display: block;
  }
